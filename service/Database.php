@@ -27,7 +27,7 @@ class Database
     }
 
 
-    public function createDatabase():void
+    public function createDatabase(): void
     {
         $conn = $this->createConnection();
         $sql = "CREATE DATABASE smartbeesDB";
@@ -40,7 +40,7 @@ class Database
         $conn->close();
     }
 
-    public function createEmailsTable():void
+    public function createEmailsTable(): void
     {
         $conn = $this->createConnection("smartbeesDB");
 
@@ -63,7 +63,7 @@ class Database
      * @param string $email
      * @param int $domainOccurrence
      */
-    public function insertToDatabase(string $email, int $domainOccurrence):void
+    public function insertToDatabase(string $email, int $domainOccurrence): void
     {
         $conn = $this->createConnection('smartbeesDB');
 
