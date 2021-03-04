@@ -30,3 +30,10 @@ function main(){
 
 createDatabaseTable();
 main();
+
+/**
+ * Zawszę mogę zrobić podobny projekt w oparciu o symfony. To już może być albo API, albo standardowa strona chociażby
+ * z formami i będę tam mógł zrobić funkcje dzięki którym można wykonać operację CRUD na jakiejś encji User plus do tego
+ * zapisywać te emaile i ich wystąpienia w jakiejś osobnej encji. Myślę, że wtedy by to lepiej wyglądało. Chociażby to
+ * wyświetlanie by było na przyzwoitym poziomie na jakiejś stronie, ale to już zależy od Państwa
+ */
